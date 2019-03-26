@@ -16,9 +16,9 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ## Run
 In a terminal or command window, navigate to the top-level project directory and run one of the following commands:
-
+```
 jupyter notebook Combined Cycle Power Plant using all features with sklearn.ipynb
-
+```
 This will open the Jupyter Notebook software and project file in your browser.
 
 ## Dataset Information
