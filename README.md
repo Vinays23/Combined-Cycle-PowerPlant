@@ -13,18 +13,11 @@ You will also need to have software installed to run and execute a [Jupyter Note
 
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included.
 
-## Code
-Template code is provided in the Combine Cycle Power Plant.ipynb notebook file. You will also be requires to use the included dataset file Combine_Cycle_Power_Plant.xlsx.
 
 ## Run
 In a terminal or command window, navigate to the top-level project directory and run one of the following commands:
 
-ipython notebook Combine Cycle Power Plant.ipynb
-
-or
-
-jupyter notebook Combine Cycle Power Plant.ipynb
-
+jupyter notebook Combined Cycle Power Plant using all features with sklearn.ipynb
 
 This will open the Jupyter Notebook software and project file in your browser.
 
@@ -46,4 +39,13 @@ Features consist of hourly average ambient variables
 - Electrical Energy Output(PE)
 
 ## Models trained On:
-1.Linear Regression
+| Trained Model | Root Mean Squared Error |
+| --- | --- |
+| Univariate Linear Regression | 0.05166 |
+| Univariate Linear Regression using sklearn | 0.06982 |
+| Multivariate Linear Regression [2 features] | 0.04688 |
+| Multivariate Linear Regression [2 features] using sklearn | 0.06466 |
+| Multivariate Linear Regression [3 features] | 0.04569 |
+| Multivariate Linear Regression [3 features] using sklearn | 0.06531 |
+| Multivariate Linear Regression [4 features] | 0.04107 |
+| Multivariate Linear Regression [4 features] using sklearn | 0.06234 |
